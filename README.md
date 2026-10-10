@@ -94,7 +94,7 @@ Then ask the agent something like: *"Turn every file in ./lectures into teaching
 
 ## Licences & credits
 
-- **Code, scripts, docs, example episode**: MIT — © 2026 Jimmy Xu / 快增绩 Kuaizengji. See `LICENSE`.
+- **Code, scripts, docs, example episode**: MIT — © 2026 Jimmy Xu / 快增绩 Kuaizengji. See `LICENSE` and `NOTICE`.
 - **Kuaizengji (快增绩) name and logo** (`toolkit/assets/brand/`): **trademarks, excluded from the MIT licence.** They ship only as the default end-card brand. Set your own brand in `config.json` (or `brand.enabled: false`) before publishing videos.
 - **Salamander Grand Piano** (Alexander Holm; SF2 by FreePats.org): CC BY 3.0 — credit required. The end card prints it; also put it in video descriptions: `Piano samples: "Salamander Grand Piano" by Alexander Holm, CC BY 3.0 (SF2 version by FreePats.org).`
 - **Kokoro-82M** model & **kokoro-onnx**: Apache-2.0 / MIT.

@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----------------------------------------------------------------------------
-Exclusions: the MIT licence above covers the code, scripts, docs and the
-example episode. It does NOT cover:
-  * the Kuaizengji (快增绩) name and logo in toolkit/assets/brand/ - trademarks
-    of Kuaizengji, included only as the default end-card brand. Set your own
-    brand in config.json (brand.*) or disable it (brand.enabled = false);
-  * third-party components (fonts, models, soundfonts, libraries), which keep
-    their own licences - see THIRD_PARTY_LICENSES.md.

@@ -1,0 +1,10 @@
+courseware-video-skill
+Copyright (c) 2026 Jimmy Xu / 快增绩 Kuaizengji
+
+The MIT licence in LICENSE covers the code, scripts, docs and the example episode.
+It does NOT cover:
+  * the Kuaizengji (快增绩) name and logo in toolkit/assets/brand/ - trademarks
+    of Kuaizengji, included only as the default end-card brand. Set your own
+    brand in config.json (brand.*) or disable it (brand.enabled = false);
+  * third-party components (fonts, models, soundfonts, libraries), which keep
+    their own licences - see THIRD_PARTY_LICENSES.md.
