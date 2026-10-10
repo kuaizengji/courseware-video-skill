@@ -10,7 +10,7 @@ Give an AI agent (or yourself) a folder of course materials — `.pptx`, `.ppt`,
 
 - **Teaching episodes** (default route, one per lecture/tutorial): step-by-step Manim animation on a light, premium-looking theme; English male voiceover (local Kokoro `am_michael`); bilingual captions on every shot (Chinese line that may explain more + English line matching the VO); dark code cards with the current line highlighted; full worked traces with console output; ~4–6 min each.
 - **Course intro / promo films** (for a course-introduction deck or a trailer): no voiceover — music, SFX and bilingual captions only; dark glowing code-drawn visuals, cuts on the beat, cold open → title card → build → climax at ~70–90 % → quick recap → end card.
-- **Original music written as code** for every video: one continuous piece per video with its own key, progression, tempo, motif *and* bed timbre; layers switch per section, beat-less stretches under dense explanation, near-silences before "pause & think" moments, a 0.4 s dead stop before the reveal, climax on the result, piano recap. Mastered to −16 LUFS, music ducked under the voice.
+- **Original music written as code** for every video: one continuous piece per video with its own key, progression, tempo and motif; the bed is an original soft pad in the style of the linear-algebra promo's bed (re-struck each bar on the chord), harmonized with the episode's lead and SFX; no bass (low end only from kick and impacts); layers switch per section, beat-less stretches under dense explanation, near-silences before "pause & think" moments, a 0.4 s dead stop before the reveal, climax on the result, piano recap. Mastered to −16 LUFS, music ducked under the voice.
 - **Content rules baked in**: knowledge points only (no homework/grading/admin), no visible trace of the source slides (no slide numbers, course codes, screenshots), unanswered questions become a "Pause & think" beat followed by a reference answer, no invented code.
 - **QA tooling**: contact sheets, caption/VO checks, safe-margin edge scanner, loudness and true-peak checks.
 
@@ -112,7 +112,7 @@ Full list: [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md). All music mater
 ### 能做什么
 - **教学片**（默认，每讲一集）：Manim 逐步动画讲解，浅色高级感画面；英文男声配音（本地 Kokoro `am_michael`）；每个镜头都有双语字幕（上面中文可多解释，下面英文与配音一致）；代码卡片逐行高亮，完整演示程序执行和输出；每集约 4–6 分钟。
 - **课程介绍片 / 宣传片**：不配音，只有音乐、音效和双语字幕；深色发光画面，卡拍快剪，高潮在全片 70–90% 处。
-- **原创配乐（用代码写）**：每支视频一首连贯的曲子，调性、和弦、速度、动机、**铺底音色**都按这一集的内容单独设计，并和这一集的音效配成和谐的一套；讲解密集处无节拍，"暂停思考"前近乎静音，揭晓前 0.4 秒全停，高潮落在结果揭晓，钢琴回顾收尾。母带 −16 LUFS，配音时音乐自动压低。
+- **原创配乐（用代码写）**：每支视频一首连贯的曲子，调性、和弦、速度、动机按这一集的内容单独设计；铺底统一采用仿「线性代数宣传片」风格的原创柔和 pad（每小节随和弦重新起音），并和这一集的旋律、音效配成和谐的一套；全程不用贝斯（低频只留底鼓和重击）；讲解密集处无节拍，"暂停思考"前近乎静音，揭晓前 0.4 秒全停，高潮落在结果揭晓，钢琴回顾收尾。母带 −16 LUFS，配音时音乐自动压低。
 - **内容规则**：只讲知识点（不含作业、评分等事务性内容）；画面里看不出课件痕迹；没有答案的问题先"暂停思考"再给参考答案；不编造课件里没有的代码。
 
 ### 安装
