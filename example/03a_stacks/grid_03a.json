@@ -1,0 +1,651 @@
+{
+ "bpm": 120,
+ "meter": "4/4",
+ "beat_s": 0.5,
+ "bar_s": 2.0,
+ "timeline_first": {
+  "rule": "chapter heads + reveal -> next downbeat (2 s); other caption/shot changes -> next beat (0.5 s); pad = hold added BEFORE the boundary (never cut)",
+  "total_padding_if_shots_on_half_bar_s": 33.77,
+  "total_padding_s": 20.77,
+  "duration_now": 292.53,
+  "duration_grid": 314.0,
+  "bars": 157,
+  "boundaries": [
+   {
+    "id": "t0",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 4.667,
+    "t_grid": 5.0,
+    "pad_before_s": 0.333,
+    "bar": 3,
+    "beat_in_bar": 3,
+    "text": "Stacks. Last in, first out."
+   },
+   {
+    "id": "d1",
+    "kind": "chapter",
+    "chapter": "Definition",
+    "t_now": 10.499,
+    "t_grid": 12.0,
+    "pad_before_s": 1.168,
+    "bar": 7,
+    "beat_in_bar": 1,
+    "text": "A stack is a special kind of list. Insertion and d"
+   },
+   {
+    "id": "d2",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 16.832,
+    "t_grid": 18.5,
+    "pad_before_s": 0.167,
+    "bar": 10,
+    "beat_in_bar": 2,
+    "text": "That end is the top. The other end is the bottom."
+   },
+   {
+    "id": "d3",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 20.699,
+    "t_grid": 22.5,
+    "pad_before_s": 0.133,
+    "bar": 12,
+    "beat_in_bar": 2,
+    "text": "Everything happens at the top. Nothing happens at "
+   },
+   {
+    "id": "d4",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 25.166,
+    "t_grid": 27.0,
+    "pad_before_s": 0.033,
+    "bar": 14,
+    "beat_in_bar": 3,
+    "text": "So the last item in is always the first one out."
+   },
+   {
+    "id": "d5",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 29.232,
+    "t_grid": 31.5,
+    "pad_before_s": 0.434,
+    "bar": 16,
+    "beat_in_bar": 4,
+    "text": "That's why stacks are called LIFO lists. Last in, "
+   },
+   {
+    "id": "o1",
+    "kind": "chapter",
+    "chapter": "Operations",
+    "t_now": 35.365,
+    "t_grid": 38.0,
+    "pad_before_s": 0.367,
+    "bar": 20,
+    "beat_in_bar": 1,
+    "text": "The primary operations are push and pop, plus top."
+   },
+   {
+    "id": "o2",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 39.432,
+    "t_grid": 42.5,
+    "pad_before_s": 0.433,
+    "bar": 22,
+    "beat_in_bar": 2,
+    "text": "Push adds an element to the top."
+   },
+   {
+    "id": "o3",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 42.265,
+    "t_grid": 45.5,
+    "pad_before_s": 0.167,
+    "bar": 23,
+    "beat_in_bar": 4,
+    "text": "Push B, and B becomes the new top."
+   },
+   {
+    "id": "o4",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 45.298,
+    "t_grid": 49.0,
+    "pad_before_s": 0.467,
+    "bar": 25,
+    "beat_in_bar": 3,
+    "text": "Pop removes the top element, and returns it."
+   },
+   {
+    "id": "o5",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 49.132,
+    "t_grid": 53.0,
+    "pad_before_s": 0.166,
+    "bar": 27,
+    "beat_in_bar": 3,
+    "text": "Top returns the top element without removing it."
+   },
+   {
+    "id": "o6",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 53.598,
+    "t_grid": 57.5,
+    "pad_before_s": 0.034,
+    "bar": 29,
+    "beat_in_bar": 4,
+    "text": "With a fixed capacity, we need two checks: is empt"
+   },
+   {
+    "id": "o7",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 58.398,
+    "t_grid": 62.5,
+    "pad_before_s": 0.2,
+    "bar": 32,
+    "beat_in_bar": 2,
+    "text": "Is empty is true when nothing is inside. Is full i"
+   },
+   {
+    "id": "o8",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 64.698,
+    "t_grid": 69.0,
+    "pad_before_s": 0.2,
+    "bar": 35,
+    "beat_in_bar": 3,
+    "text": "Pushing onto a full stack fails, and returns null."
+   },
+   {
+    "id": "o9",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 69.798,
+    "t_grid": 74.5,
+    "pad_before_s": 0.4,
+    "bar": 38,
+    "beat_in_bar": 2,
+    "text": "Popping an empty stack, or asking for its top, als"
+   },
+   {
+    "id": "a1",
+    "kind": "chapter",
+    "chapter": "Applications",
+    "t_now": 77.298,
+    "t_grid": 82.0,
+    "pad_before_s": 0.0,
+    "bar": 42,
+    "beat_in_bar": 1,
+    "text": "Stacks show up in expression evaluation, in backtr"
+   },
+   {
+    "id": "c1",
+    "kind": "chapter",
+    "chapter": "Array or linked list?",
+    "t_now": 85.731,
+    "t_grid": 92.0,
+    "pad_before_s": 1.567,
+    "bar": 47,
+    "beat_in_bar": 1,
+    "text": "Recall why we usually don't build a list on an arr"
+   },
+   {
+    "id": "pause",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 91.664,
+    "t_grid": 98.0,
+    "pad_before_s": 0.067,
+    "bar": 50,
+    "beat_in_bar": 1,
+    "text": "Pause and think."
+   },
+   {
+    "id": "c2",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 94.698,
+    "t_grid": 101.5,
+    "pad_before_s": 0.466,
+    "bar": 51,
+    "beat_in_bar": 4,
+    "text": "For a list, inserting or removing in the middle of"
+   },
+   {
+    "id": "c3",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 100.631,
+    "t_grid": 107.5,
+    "pad_before_s": 0.067,
+    "bar": 54,
+    "beat_in_bar": 4,
+    "text": "A stack only works at one end, so nothing shifts. "
+   },
+   {
+    "id": "c4",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 107.931,
+    "t_grid": 115.0,
+    "pad_before_s": 0.2,
+    "bar": 58,
+    "beat_in_bar": 3,
+    "text": "The difference is space. An array has a fixed capa"
+   },
+   {
+    "id": "c5",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 117.164,
+    "t_grid": 124.5,
+    "pad_before_s": 0.267,
+    "bar": 63,
+    "beat_in_bar": 2,
+    "text": "Here, we'll use an array."
+   },
+   {
+    "id": "i1",
+    "kind": "chapter",
+    "chapter": "Array implementation",
+    "t_now": 120.764,
+    "t_grid": 130.0,
+    "pad_before_s": 1.9,
+    "bar": 66,
+    "beat_in_bar": 1,
+    "text": "Elements live in an array called values. Top holds"
+   },
+   {
+    "id": "i2",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 126.931,
+    "t_grid": 136.5,
+    "pad_before_s": 0.333,
+    "bar": 69,
+    "beat_in_bar": 2,
+    "text": "Here's the Stack class: two fields, a constructor,"
+   },
+   {
+    "id": "i3",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 134.231,
+    "t_grid": 144.0,
+    "pad_before_s": 0.2,
+    "bar": 73,
+    "beat_in_bar": 1,
+    "text": "The constructor creates an array of the given size"
+   },
+   {
+    "id": "i4",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 139.964,
+    "t_grid": 150.0,
+    "pad_before_s": 0.267,
+    "bar": 76,
+    "beat_in_bar": 1,
+    "text": "Why minus one?"
+   },
+   {
+    "id": "pause",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 142.064,
+    "t_grid": 152.5,
+    "pad_before_s": 0.4,
+    "bar": 77,
+    "beat_in_bar": 2,
+    "text": "Pause and think."
+   },
+   {
+    "id": "i5",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 144.731,
+    "t_grid": 155.5,
+    "pad_before_s": 0.333,
+    "bar": 78,
+    "beat_in_bar": 4,
+    "text": "Top is the index of the top element. An empty stac"
+   },
+   {
+    "id": "i6",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 152.864,
+    "t_grid": 164.0,
+    "pad_before_s": 0.367,
+    "bar": 83,
+    "beat_in_bar": 1,
+    "text": "Then the first push lands exactly in slot zero, an"
+   },
+   {
+    "id": "i7",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 160.164,
+    "t_grid": 171.5,
+    "pad_before_s": 0.2,
+    "bar": 86,
+    "beat_in_bar": 4,
+    "text": "Push first checks whether the stack is full. If it"
+   },
+   {
+    "id": "i8",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 165.364,
+    "t_grid": 177.0,
+    "pad_before_s": 0.3,
+    "bar": 89,
+    "beat_in_bar": 3,
+    "text": "Then the key line. Plus-plus top is a pre-incremen"
+   },
+   {
+    "id": "i9",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 173.331,
+    "t_grid": 185.0,
+    "pad_before_s": 0.033,
+    "bar": 93,
+    "beat_in_bar": 3,
+    "text": "Finally it returns top, the element we just pushed"
+   },
+   {
+    "id": "p1",
+    "kind": "chapter",
+    "chapter": "displayStack()",
+    "t_now": 178.631,
+    "t_grid": 192.0,
+    "pad_before_s": 1.7,
+    "bar": 97,
+    "beat_in_bar": 1,
+    "text": "Display stack prints the stack from the top down."
+   },
+   {
+    "id": "p2",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 182.131,
+    "t_grid": 195.5,
+    "pad_before_s": 0.0,
+    "bar": 98,
+    "beat_in_bar": 4,
+    "text": "It starts with the top arrow label, on the same li"
+   },
+   {
+    "id": "p3",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 186.164,
+    "t_grid": 200.0,
+    "pad_before_s": 0.467,
+    "bar": 101,
+    "beat_in_bar": 1,
+    "text": "Then the loop runs from top down to zero, one elem"
+   },
+   {
+    "id": "p4",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 191.064,
+    "t_grid": 205.0,
+    "pad_before_s": 0.1,
+    "bar": 103,
+    "beat_in_bar": 3,
+    "text": "The format gives four decimal places, with a space"
+   },
+   {
+    "id": "p5",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 198.931,
+    "t_grid": 213.0,
+    "pad_before_s": 0.133,
+    "bar": 107,
+    "beat_in_bar": 3,
+    "text": "A base line marks the bottom."
+   },
+   {
+    "id": "m0",
+    "kind": "chapter",
+    "chapter": "Demo · main()",
+    "t_now": 202.83,
+    "t_grid": 218.0,
+    "pad_before_s": 1.101,
+    "bar": 110,
+    "beat_in_bar": 1,
+    "text": "Now let's trace a complete main program, step by s"
+   },
+   {
+    "id": "m1",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 208.497,
+    "t_grid": 224.0,
+    "pad_before_s": 0.333,
+    "bar": 113,
+    "beat_in_bar": 1,
+    "text": "A new stack of capacity four. Top is minus one."
+   },
+   {
+    "id": "m2",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 212.73,
+    "t_grid": 228.5,
+    "pad_before_s": 0.267,
+    "bar": 115,
+    "beat_in_bar": 2,
+    "text": "It's empty, so we print true."
+   },
+   {
+    "id": "m3",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 215.463,
+    "t_grid": 231.5,
+    "pad_before_s": 0.267,
+    "bar": 116,
+    "beat_in_bar": 4,
+    "text": "Push minus three, then push five."
+   },
+   {
+    "id": "m4",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 218.363,
+    "t_grid": 234.5,
+    "pad_before_s": 0.1,
+    "bar": 118,
+    "beat_in_bar": 2,
+    "text": "After the heading, the display shows five above mi"
+   },
+   {
+    "id": "m5",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 222.763,
+    "t_grid": 239.0,
+    "pad_before_s": 0.1,
+    "bar": 120,
+    "beat_in_bar": 3,
+    "text": "Push one, and two. Now it's full, and top is three"
+   },
+   {
+    "id": "m6",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 226.697,
+    "t_grid": 243.0,
+    "pad_before_s": 0.066,
+    "bar": 122,
+    "beat_in_bar": 3,
+    "text": "Push minus one fails. The stack is full, so it ret"
+   },
+   {
+    "id": "m7",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 232.897,
+    "t_grid": 249.5,
+    "pad_before_s": 0.3,
+    "bar": 125,
+    "beat_in_bar": 4,
+    "text": "So the display shows four items, with no minus one"
+   },
+   {
+    "id": "m8",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 237.197,
+    "t_grid": 254.0,
+    "pad_before_s": 0.2,
+    "bar": 128,
+    "beat_in_bar": 1,
+    "text": "Top returns two point oh. Joined into a string, it"
+   },
+   {
+    "id": "m9",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 244.297,
+    "t_grid": 261.5,
+    "pad_before_s": 0.4,
+    "bar": 131,
+    "beat_in_bar": 4,
+    "text": "Is full returns true, so we print true."
+   },
+   {
+    "id": "m10",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 247.53,
+    "t_grid": 265.0,
+    "pad_before_s": 0.267,
+    "bar": 133,
+    "beat_in_bar": 3,
+    "text": "Four pops remove two, one, five, and minus three. "
+   },
+   {
+    "id": "m11",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 253.13,
+    "t_grid": 271.0,
+    "pad_before_s": 0.4,
+    "bar": 136,
+    "beat_in_bar": 3,
+    "text": "Top is back to minus one, so the last display is j"
+   },
+   {
+    "id": "m12",
+    "kind": "reveal",
+    "chapter": null,
+    "t_now": 259.263,
+    "t_grid": 278.0,
+    "pad_before_s": 0.867,
+    "bar": 140,
+    "beat_in_bar": 1,
+    "text": "Put together, that's the complete output of main."
+   },
+   {
+    "id": "s1",
+    "kind": "chapter",
+    "chapter": "Summary",
+    "t_now": 267.897,
+    "t_grid": 288.0,
+    "pad_before_s": 1.366,
+    "bar": 145,
+    "beat_in_bar": 1,
+    "text": "To sum up: a stack works only at the top. Last in,"
+   },
+   {
+    "id": "s2",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 277.097,
+    "t_grid": 297.5,
+    "pad_before_s": 0.3,
+    "bar": 149,
+    "beat_in_bar": 4,
+    "text": "With an array, top starts at minus one, push pre-i"
+   },
+   {
+    "id": "e1",
+    "kind": "shot",
+    "chapter": null,
+    "t_now": 286.23,
+    "t_grid": 307.0,
+    "pad_before_s": 0.367,
+    "bar": 154,
+    "beat_in_bar": 3,
+    "text": "Next up: queues."
+   }
+  ]
+ },
+ "fit_current": {
+  "phase_offset_s": 1.26,
+  "note": "downbeats at phase_offset + 2k s; chapter changes snap to the nearest downbeat, hits stay on the exact cut",
+  "cuts": [
+   {
+    "cut": 10.499,
+    "nearest_downbeat": 11.26,
+    "offset_s": -0.761
+   },
+   {
+    "cut": 35.365,
+    "nearest_downbeat": 35.26,
+    "offset_s": 0.105
+   },
+   {
+    "cut": 77.298,
+    "nearest_downbeat": 77.26,
+    "offset_s": 0.038
+   },
+   {
+    "cut": 85.731,
+    "nearest_downbeat": 85.26,
+    "offset_s": 0.471
+   },
+   {
+    "cut": 120.764,
+    "nearest_downbeat": 121.26,
+    "offset_s": -0.496
+   },
+   {
+    "cut": 178.631,
+    "nearest_downbeat": 179.26,
+    "offset_s": -0.629
+   },
+   {
+    "cut": 202.83,
+    "nearest_downbeat": 203.26,
+    "offset_s": -0.43
+   },
+   {
+    "cut": 267.897,
+    "nearest_downbeat": 267.26,
+    "offset_s": 0.637
+   },
+   {
+    "cut": 259.263,
+    "nearest_downbeat": 259.26,
+    "offset_s": 0.003
+   }
+  ],
+  "mean_abs_offset_s": 0.397
+ }
+}

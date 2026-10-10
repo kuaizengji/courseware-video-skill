@@ -1,0 +1,24 @@
+# large downloads (fetched by install.sh)
+models/
+soundfonts/
+*.onnx
+*.sf2
+*.tar.xz
+voices-v1.0.bin
+# environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+env.sh
+config.json
+!toolkit/config.default.json
+# render outputs
+build/
+media/
+out/
+deliver/
+smoke_run/
+*.mp4
+*.m4a
+.DS_Store

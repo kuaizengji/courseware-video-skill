@@ -1,0 +1,19 @@
+# courseware-video toolkit - Python deps (pinned to the versions the reference pipeline was built and tested with).
+# Python 3.13 (Debian 13). Installed by install.sh into $CVS_HOME/venv with:  pip install -r requirements.txt -c constraints.txt
+manim==0.22.0                  # animation (needs libcairo2-dev, libpango1.0-dev, pkg-config, ffmpeg)
+kokoro-onnx==0.6.1             # local TTS fallback (Kokoro-82M, Apache-2.0); model files downloaded by install.sh
+onnxruntime==1.31.0
+soundfile==0.14.0
+pyloudnorm==0.2.0
+pretty_midi==0.2.11.post0      # piano MIDI -> FluidSynth (Salamander SF2)
+numpy==2.5.3
+scipy==1.18.1
+librosa==1.0.0                 # audio analysis / QA
+matplotlib==3.11.2             # analyze.py spectrograms
+opencv-python-headless==5.0.0.93
+CairoSVG==2.9.1                # SVG -> PNG (logos, figures)
+pillow==12.3.0
+requests==2.34.2               # Gemini TTS (REST)
+python-pptx==1.0.2             # ingest: slide text + speaker notes
+python-docx==1.2.0             # ingest: .docx tutorials
+# optional (not installed by default): faster-whisper  -> tts.py --asr check

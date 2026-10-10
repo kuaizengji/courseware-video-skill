@@ -1,0 +1,19 @@
+{
+  "brand": {
+    "enabled": true,
+    "logo_light": "brand/logo-black.svg",
+    "logo_dark": "brand/logo-white.svg",
+    "site": "www.kuaizengji.com",
+    "powered_by": ""
+  },
+  "voice": {
+    "name": "am_michael",
+    "speed": 1.03,
+    "lang": "en-us",
+    "provider": "kokoro"
+  },
+  "theme": "light",
+  "music": {
+    "pad": "X2"
+  }
+}

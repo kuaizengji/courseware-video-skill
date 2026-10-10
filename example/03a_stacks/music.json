@@ -1,0 +1,14 @@
+{
+  "_comment": "Music plan for this episode, read by toolkit/music/score_v4.py --music-config (format: toolkit/music/scorecfg.py). These are the approved 'Stacks' values; a new episode should choose its own key / progression / tempo / motif / pad.",
+  "bpm": 120,
+  "key": "D minor",
+  "pad": "X2",
+  "seed": 11,
+  "progression": {"intro": "Dmadd9", "loop": ["Dmadd9","Dmadd9","Bbmaj7","Bbmaj7","Gm7","Gm7","Cadd9","Cadd9"], "cadence": ["Asus4","A"], "ending": "Dadd9"},
+  "motif": {"pickup": "r:1 A4:1 D5:1 E5:1",
+            "theme": ["F5:3 E5:1","D5:1 F4:1 Bb4:1 C5:1","D5:3 C5:1","Bb4:1 D5:1 G5:1 A5:1","Bb5:3 A5:1","G5:1 E5:1 F5:1 G5:1","A5:3 G5:1","E5:1 A4:1 D5:1 E5:1"],
+            "coda": ["Bb4:3 r:1","C#5:1 A4:1 D5:1 E5:1","F#5:3 E5:1","D5:4","r:4","A4:2 D5:2"]},
+  "sections": [["start","open"],["ch:1","calm"],["ch:2","pulse"],["ch:3","lift"],["ch:4","calm2"],["ch:5","code"],["ch:6","code2"],["ch:7","build"],["cap:m12","climax"],["ch:8","recap"],["cap:e1","end"]],
+  "pulse_groove_until": "cap:o6",
+  "reveal_caption": "m12"
+}
