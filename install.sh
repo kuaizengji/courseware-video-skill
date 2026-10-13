@@ -22,7 +22,7 @@ SAL_SF2_NAME="SalamanderGrandPiano-V3+20200602.sf2"
 log "1/7 toolkit files -> $CVS_HOME"
 mkdir -p "$CVS_HOME"
 if [ "$(cd "$CVS_HOME" && pwd)" != "$PKG" ]; then
-  for f in toolkit example SKILL.md README.md THIRD_PARTY_LICENSES.md LICENSE requirements.txt constraints.txt apt-packages.txt install.sh; do
+  for f in toolkit example SKILL.md PITFALLS.md DECISIONS_TEMPLATE.md README.md THIRD_PARTY_LICENSES.md LICENSE requirements.txt constraints.txt apt-packages.txt install.sh; do
     [ -e "$PKG/$f" ] || continue
     rm -rf "$CVS_HOME/$f.new"; cp -a "$PKG/$f" "$CVS_HOME/$f.new"; rm -rf "$CVS_HOME/$f"; mv "$CVS_HOME/$f.new" "$CVS_HOME/$f"
   done

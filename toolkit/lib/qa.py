@@ -2,7 +2,8 @@
   python lib/qa.py sheet <video> <out.png> [cols rows]   -> contact sheet of evenly spaced frames
   python lib/qa.py frames <video> <outdir> t1 t2 ...       -> PNG frames at given times
   python lib/qa.py capframes <video> <timeline_all.json> <outdir> -> one frame per caption (midpoint)
-  python lib/qa.py loud <video>                            -> ebur128 summary"""
+  python lib/qa.py loud <video>                            -> ebur128 summary
+  python lib/qa.py gate <video> [...]                     -> delivery gate, ERROR/WARN, exit 1 on ERROR (see lib/gate.py)"""
 import sys, os, subprocess, json
 def dur(v): return float(subprocess.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",v]).decode())
 def frame(v, t, out, w=None):
@@ -27,3 +28,7 @@ if __name__ == "__main__":
     elif cmd == "loud":
         r = subprocess.run(["ffmpeg","-hide_banner","-nostats","-i",sys.argv[2],"-af","ebur128=peak=true","-f","null","-"],capture_output=True,text=True)
         print(r.stderr[r.stderr.rfind("Summary"):])
+    elif cmd == "gate":
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        from gate import main as gate_main
+        sys.exit(gate_main(sys.argv[2:]))

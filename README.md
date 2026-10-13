@@ -94,6 +94,8 @@ Then ask the agent something like: *"Turn every file in ./lectures into teaching
 
 ## Licences & credits
 
+Some rule ideas (pacing floor, retell test, delivery gate, doctor, pitfalls log) adapted from [liyupi/ai-promo-video-maker](https://github.com/liyupi/ai-promo-video-maker) (MIT).
+
 - **Code, scripts, docs, example episode**: MIT — © 2026 Jimmy Xu / 快增绩 Kuaizengji. See `LICENSE` and `NOTICE`.
 - **Kuaizengji (快增绩) name and logo** (`toolkit/assets/brand/`): **trademarks, excluded from the MIT licence.** They ship only as the default end-card brand. Set your own brand in `config.json` (or `brand.enabled: false`) before publishing videos.
 - **Salamander Grand Piano** (Alexander Holm; SF2 by FreePats.org): CC BY 3.0 — credit required. The end card prints it; also put it in video descriptions: `Piano samples: "Salamander Grand Piano" by Alexander Holm, CC BY 3.0 (SF2 version by FreePats.org).`
@@ -135,4 +137,5 @@ source ~/courseware-video/env.sh
 在 `$CVS_HOME/config.json` 里改品牌、配音、主题等（见上方英文表格）。**快增绩的名称和 logo 是商标，不在 MIT 授权范围内**，只作为默认片尾品牌附带；发布你自己的视频前，请在 `config.json` 里换成你自己的品牌，或设 `brand.enabled: false`。
 
 ### 许可
+部分规则思路参考 [liyupi/ai-promo-video-maker](https://github.com/liyupi/ai-promo-video-maker)（MIT）。
 代码、脚本、文档和范例：MIT（© 2026 Jimmy Xu / 快增绩 Kuaizengji）。Salamander 钢琴音源为 CC BY 3.0，必须署名（片尾已带）。字体为 SIL OFL 1.1。详见 `LICENSE` 和 `THIRD_PARTY_LICENSES.md`。
